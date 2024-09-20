@@ -19,7 +19,9 @@ app.use(express.json());
   });
 
 const newItem = new Items({
+  id:34,
   name: "rice",
+  description: "good quality and quantity rice",
   price: "50",
 });
 newItem
